@@ -1,0 +1,143 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;  
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.banner {
+    padding-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+.banner-text h1 {
+    color: #252525;
+    font-size: 10vw;
+    font-weight: bolder;
+}
+
+.banner-text h2 {
+    padding-top: 200px;
+    font-size: 5vw;
+    font-weight: bolder; 
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .banner-text h2 {
+       font-size: 35px;
+    }
+  }
+
+.banner-text h3 {
+    padding-top: 200px;
+    text-align: left;
+}
+
+.responsive-logo {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 100px;
+    
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 700px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.overview-colors {
+    color: #fc886f;
+}
+
+.parallax {
+    background-image: url("../images/science.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.parallax-two {
+    background-image: url("../images/design.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;   
+}
+
+.about-section {
+    background-color: #f8f8f8;
+    min-height: 1000px;
+    padding-top: 250px; 
+}
+
+.me {
+    border-radius: 50%;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50%;
+}
+
+#right-column {
+    padding-top: 60px;
+}
+
+.contact-section {
+    background-color: #f8f8f8;
+    min-height: 1000px;
+    padding-top: 250px; 
+}
+
+#lets-talk {
+    color: #fc886f;
+}
+
+.mailto {
+    text-decoration: none !important;
+    color: #fc886f;
+}
+
+.mailto:hover {
+    color: #252525;
+    transition: .5s;
+}
