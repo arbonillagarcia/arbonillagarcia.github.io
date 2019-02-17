@@ -174,10 +174,10 @@ body {
 
 .up {
     text-decoration: none;
-    color: #252525;
+    color: #fc886f;
 }
 
 .up:hover {
-    color: #fc886f;
+    color: #252525;
     transition: .5s;
 }
