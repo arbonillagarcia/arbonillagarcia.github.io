@@ -2,6 +2,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     font-size: 15px;
+    
 }
 
 #nav {
@@ -10,6 +11,8 @@ nav {
     overflow: hidden;
     list-style-type: none;
     text-align: center;
+    
+    
 }
 
 #nav ul {
