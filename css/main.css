@@ -176,11 +176,26 @@ body {
 
 .up {
     text-decoration: none;
-    color: #fc886f;
+    color: #252525;
 }
 
 .up:hover {
-    color: #252525;
+    color: #fc886f;
     transition: .5s;
 }
 
+.twitter {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.twitter-account {
+    text-decoration: none;
+    color: #fc886f;
+}
+
+.twitter-account:hover {
+    color: #252525;
+    transition: .5s;
+}
