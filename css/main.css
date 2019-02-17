@@ -66,6 +66,7 @@ body {
     width: 50%;
     padding: 10px;
     padding-bottom: 100px;
+    max-width: 580px;
     
 }
   
@@ -115,7 +116,7 @@ body {
     border-radius: 50%;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 40px;
+    margin: 37.5px;
 }
 
 #right-column {
@@ -123,7 +124,8 @@ body {
 }
 
 #left-column {
-    text-align: center;
+    text-align: left;
+    padding-left: 145px;
 }
 
 .contact-section {
