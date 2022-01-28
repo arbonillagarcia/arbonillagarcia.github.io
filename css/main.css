@@ -79,6 +79,28 @@ body {
 @media screen and (max-width: 700px) {
     .column {
         width: 100%;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    #right-column {
+        margin-top: -150px;
+        margin-bottom: -230px;
+    }
+    .me {
+        margin-top: -150px;
+    }
+
+    .overview {
+        display: none;
+    }
+
+    #nav {
+        font-size: 1.5em;
+    }
+
+    .contact-section {
+        font-size: 1.2em;
     }
 }
 
@@ -92,6 +114,30 @@ body {
     color: #fc886f;
 }
 
+.animatedUnder {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.animatedUnder:hover::after {
+    width: 100%;
+    right: 0;
+}
+  
+.animatedUnder::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    right: 0;
+    background: linear-gradient(to left, #ba8bf8, #fc886f 100%);
+    transition: width .5s ease 0s, right .5s ease 0s;
+    width: 0;
+    border-radius: 5em;
+}
+  
 .parallax {
     background-image: url("../images/science.png");
     min-height: 300px;
@@ -110,6 +156,7 @@ body {
     background-color: #f8f8f8;
     min-height: 1000px;
     padding-top: 250px; 
+    padding-bottom: 250px;
 }
 
 .me {
