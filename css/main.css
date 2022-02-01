@@ -69,6 +69,13 @@ body {
     max-width: 580px;
     
 }
+.left-column {
+    float: left;
+    width: 50%;
+    margin-top: 140px;
+    max-width: 580px;
+    
+}
   
 .row:after {
     content: "";
@@ -84,8 +91,14 @@ body {
     }
 
     #right-column {
-        margin-top: -150px;
         margin-bottom: -230px;
+        max-width: none;
+
+    }
+
+    .left-column {
+        max-width: none;
+        width: 100%;
     }
     .me {
         margin-top: -150px;
@@ -102,6 +115,7 @@ body {
     .contact-section {
         font-size: 1.2em;
     }
+
 }
 
 .row {
@@ -170,11 +184,10 @@ body {
 }
 
 #right-column {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 #left-column {
-    text-align: left;
     padding-left: 145px;
 }
 
